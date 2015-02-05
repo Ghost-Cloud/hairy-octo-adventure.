@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - The 'root element' parallax technique</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Oswald:400,300,700'>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <h1 class="parallax">The &lsquo;root element&rsquo; parallax technique</h1>
+
+<img src="http://distilleryimage4.s3.amazonaws.com/631dac84d67611e1a7d81231381b5136_7.jpg" class="parallax  skyline">
+<img src="http://distilleryimage4.s3.amazonaws.com/16fe826ee3b511e1a47b22000a1cf766_7.jpg" class="parallax  blimp">
+<img src="http://distilleryimage11.s3.amazonaws.com/07354ffe2f3011e2a23c22000a1f9d66_7.jpg" class="parallax  gherkin">
+<img src="http://distilleryimage4.s3.amazonaws.com/059c1a748e6311e1b10e123138105d6b_7.jpg" class="parallax  dino">
+<img src="http://distilleryimage10.s3.amazonaws.com/7ec10646ab5d11e1af7612313813f8e8_7.jpg" class="parallax  bull">
+<img src="http://distilleryimage10.s3.amazonaws.com/7ec10646ab5d11e1af7612313813f8e8_7.jpg" class="parallax  baba">
+<img src="http://distilleryimage10.s3.amazonaws.com/7ec10646ab5d11e1af7612313813f8e8_7.jpg" class="parallax  baba2">
+<img src="http://distilleryimage10.s3.amazonaws.com/7ec10646ab5d11e1af7612313813f8e8_7.jpg" class="parallax  baba3">
+<img src="http://distilleryimage10.s3.amazonaws.com/7ec10646ab5d11e1af7612313813f8e8_7.jpg" class="parallax  baba4">
+
+<div class="parallax  box">
+  <p>By combining the power of <code>`rem`</code> and a small JavaScript function to manipulate the <code>`font-size`</code> of the <code>`html`</code> element, we can achieve simple but effective parallaxing.</p>
+  <p>Setting all our positions and parallax movements in CSS, this technique minimises DOM manipulations to just one &ndash; on the <code>`html`</code> element &ndash; boosting overall performance.</p>
+  <p>The speed and direction of each element is set using margins (for this demo I've used <code>`margin-top`</code>). Play around with the numbers yourself to get a better understanding.</p>
+  <p>This is just a proof of concept and hasn't been fully tested, though it should work everywhere that supports <code>`rem`</code> (<a href="http://caniuse.com/#feat=rem">see here</a>). Using <code>`rem`</code> in this way does have its pitfalls &ndash; most notably the loss of its traditional usage &ndash; but it's a nice trick.</p>
+</div>
+
+<a href="http://codepen.io/amustill/full/aoFIm" target="_blank" class="parallax  btn">View full screen</a>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
